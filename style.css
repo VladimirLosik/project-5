@@ -80,7 +80,7 @@ html {
     font-style: italic;
     color: #be3144;
     font-size: 30px;
-    font-weight: 100;
+    font-weight: 500;
 }
 
 .projects-section {
@@ -110,6 +110,12 @@ html {
     border-bottom: 2px solid #f0f0f0;
     color: #f0f0f0;
     font-size: 42px;
+}
+
+@media (max-width: 460px) {
+    .projects-section__title {
+        font-size: 40px;
+    }
 }
 
 .projects-section__grid {
@@ -219,7 +225,14 @@ html {
     text-align: center;
 }
 
+@media (max-width:460px) {
+    .contact-section__title {
+        font-size:40px;
+    }
+}
+
 .contact-section__text {
+    font-size: 18px;
     font-style:italic;
     font-weight: 100;
 }
@@ -262,6 +275,13 @@ html {
     border-top: 4px solid #be3144;
     display: flex;
     justify-content: space-evenly;
+}
+
+@media (max-width: 460px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 .footer__text {
